@@ -37,7 +37,7 @@ Loads the Teachable Machine generated model into TensorFlow. Resizes the image t
 #### module_handTracking.py
 Uses MediaPipe to find hands, landmark locations, and the distance between two points.
 
-##### Method `find_hands(self, image, drawAll=True, drawLandmarks=False, flipType=True)
+##### Method `find_hands(self, image, drawAll=True, drawLandmarks=False, flipType=True)`
 Parameters:
 * image: Image to find hands in; passed as BGR format from OpenCV, converted to RGB for MediaPipe
 * drawAll: Draws landmarks, bounding box, and hand type if True; default True
